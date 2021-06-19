@@ -22,7 +22,7 @@
     }
       public function controlEmail($_email){
         if(!strpos($_email, "@") || !strpos($_email, ".")){
-           throw new Exception('Email non valida! in questo caso di stefano');
+           throw new Exception('Email non valida! in questo caso di Andrea');
         }else{
           $this->email = $_email;
         }
